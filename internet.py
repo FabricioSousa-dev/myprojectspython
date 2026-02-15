@@ -30,3 +30,5 @@ print(f"Ping:{ping:.2f}ms")
 print(f"Download:{dowmload_mbps:.2f}mps")
 print(f"Upload:{upload:.2f}mbps")
 
+print("****************************")
+
