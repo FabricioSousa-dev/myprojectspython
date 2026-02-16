@@ -39,7 +39,7 @@ time.sleep(3)
 print(emoji.emojize("\n\nTestando conexão com a internet:globe_with_meridians:............"))
 
 print("Criar socket......")
-sc = socket.socket()
+sc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 print("\nMedir tempo.......")
 tempo_inicial = time.time()
