@@ -24,13 +24,13 @@ upload = st.upload()
 time.sleep(2)
 
 
-dowmload_mbps = download / 1_000_000
+download_mbps = download / 1_000_000
 upload_mbps = upload / 1_000_000
 time.sleep(5)
 
 print("\n\n\n*******************Resultado do teste*************************\n\n")
 print(f"Ping:{ping:.2f}ms")
-print(f"Download:{dowmload_mbps:.2f} mps")
+print(f"Download:{download_mbps:.2f} mbps")
 print(f"Upload:{upload_mbps:.2f} mbps")
 
 print("****************************")
