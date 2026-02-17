@@ -57,5 +57,5 @@ print(f"Ping (socket): {ping_socket:.2f} ms")
 print("\n\n******Fechando conexão********")
 sc.close()
 
-print("Funcionou até aqui,obrigado pela paciência!")
+print("\n\nFuncionou até aqui,obrigado pela paciência!")
 
