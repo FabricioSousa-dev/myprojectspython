@@ -36,7 +36,7 @@ print(f"Upload:{upload_mbps:.2f} mbps")
 print("****************************")
 time.sleep(5)
 
-print(emoji.emojize("\n\n************Testando conexão com a internet:globe_with_meridians:............"))
+print(emoji.emojize("\n************Testando conexão com a internet:globe_with_meridians:............"))
 
 print("Criar socket......")
 sc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
