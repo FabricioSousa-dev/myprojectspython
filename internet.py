@@ -58,4 +58,5 @@ print("\n\n******Fechando conexão********")
 sc.close()
 
 print("\n\nFuncionou até aqui,obrigado pela paciência!")
+print("Até mais!")
 
